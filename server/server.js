@@ -7,8 +7,9 @@ const PUBLIC_DIR = path.resolve(__dirname, '..', 'public');
 const app = express();
 
 app.use(morgan('dev'));
-app.use('/listing/:listingid'(OR SOMETHING LIKE THAT), express.static(PUBLIC_DIR));
+app.use('/listing/:listingid', express.static(PUBLIC_DIR));
 // Josh said may have to make a minor tweak to express.static
+// Should be something like /listing/:listingid
 
 
 // Handling asset requests for webpack bundles by passing off requests to the bundles router
