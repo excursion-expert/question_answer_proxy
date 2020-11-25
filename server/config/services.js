@@ -43,7 +43,7 @@
 module.exports = {
   service1: {
     api: '/listings/:listings_id/carousel/*',
-    url: 'http://localhost:3001',
+    url: 'http://18.222.149.170:3000',
     bundle: 'bundle.js',
   },
   service2: {
@@ -53,7 +53,7 @@ module.exports = {
   },
   service3: {
     api: '/listings/:listings_id/reviews/*',
-    url: 'http://localhost:3003',
+    url: 'http://18.219.118.49:3003/1/',
     bundle: 'bundle.js',
   },
   service4: {
