@@ -48,8 +48,8 @@ module.exports = {
   },
   service2: {
     api: '/listings/:listings_id/tours/*',
-    url: 'http://localhost:3002',
-    bundle: 'app.js',
+    url: 'http://54.187.26.30:3002',
+    bundle: 'bundle.js',
   },
   service3: {
     api: '/listings/:listings_id/reviews/*',
@@ -58,7 +58,7 @@ module.exports = {
   },
   service4: {
     api: '/listings/:listings_id/questions/*',
-    url: 'http://54.189.51.184:3004/3/',
+    url: 'http://18.237.144.53:3004/',
     // Changed to my AWS URL
     bundle: 'bundle.js',
     // Changed bundle from app.js to bundle.js
