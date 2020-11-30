@@ -52,7 +52,7 @@ module.exports = {
     bundle: 'bundle.js',
   },
   service3: {
-    api: '/listings/:listings_id/reviews/*',
+    api: '/listings/:listings_id/reviews',
     url: 'http://18.219.118.49:3003/1/',
     bundle: 'bundle.js',
   },
