@@ -42,7 +42,7 @@
 
 module.exports = {
   service1: {
-    api: '/listings/:listings_id/carousel/*',
+    api: '/listings/:listings_id/carousel',
     url: 'http://18.222.149.170:3000',
     bundle: 'bundle.js',
   },
